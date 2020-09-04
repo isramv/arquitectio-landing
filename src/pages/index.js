@@ -1,6 +1,7 @@
 import React from "react"
 import logo from '../images/arquitectio_logo.svg'
 import heroImage from '../images/hero-image.png'
+import ilustration from '../images/illustration_girl.png'
 
 export default function Home() {
     return (
@@ -37,26 +38,43 @@ export default function Home() {
                         A finales del año 2020 la plataforma estará a tu disposción para:
                     </p>
                 </div>
-                <div className="container mx-auto md:flex md:mb-10">
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mr-6">
+                <div className="container mx-auto md:flex md:mb-10 px-4 md:px-0">
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:mr-6">
                         <h4 className='text-center font-semibold mb-6'>Mostrar tu trabajo.</h4>
                         <p className='text-sm'>Con la idea de mostrar tu trabajo y calida al mayor numero de personas,
                             creamos un sistema donde sera facil publicar tus obras y proyectos.</p>
                     </div>
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6">
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl mb-4 p-6">
                         <h4 className='text-center font-semibold mb-6'>Encontrar proveedores.</h4>
                         <p className='text-sm'>Alguna vez haz tenido la necesidad de encontrar un buen provedor o
                             comparar con algun otro, los proveedores tambien podran darse de alta en el sistema y
                             mostrar sus productos y servicios.</p>
                     </div>
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 ml-6">
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:ml-6">
                         <h4 className='text-center font-semibold mb-6'>Recibir evaluaciones de clientes.</h4>
                         <p className='text-sm'>Recibir evaluaciones de clientes es importante para encontrar nuevos
-                            clientes, por eso Arquitect.io contara con un sistema de evaluacion para los usuarios que
+                            clientes, por eso <b>Arquitect.io</b> contara con un sistema de evaluacion para
+                            los usuarios que
                             esten registrados.</p>
                     </div>
                 </div>
             </div>
+            <div className='container mx-auto py-10 px-4'>
+                <div className='md:flex items-center'>
+                    <div className="md:w-4/7">
+                        <h3 className='font-semibold text-3xl leading-snug'>Tu contentido es importante, es reflejo de
+                            tu trabajo.</h3>
+                        <p className='text-sm py-6'>Valoramos el contenido de calidad, por eso en Arquitect.io
+                            seleccionaremos el mejor contenido para mostrarlo al mayor numero de personas posible.</p>
+                    </div>
+                    <div className="md:w-3/7">
+                        <img src={ilustration} alt="Girl showing of her work." className=''/>
+                    </div>
+                </div>
+            </div>
+            <footer className='bg-black'>
+
+            </footer>
         </>
     )
 }
