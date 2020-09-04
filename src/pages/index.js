@@ -14,37 +14,46 @@ export default function Home() {
                 </div>
                 <div className="bg-black flex-grow p-4 md:w-1/2 md:p-10 md:mx-6 rounded-lg">
                     <div>
-                        <h1 className='text-white font-bold text-3xl leading-tight mb-6'>La plataforma para mostrar tu trabajo y obtener clientes.</h1>
-                        <p className='font-semibold text-white mb-6'>Arquitect.io es la plataforma para encontrar un profesional cerca de ti, Arquitectos, Interioristas o Proveedores.</p>
+                        <h1 className='text-white font-bold text-3xl leading-tight mb-6'>La plataforma para mostrar tu
+                            trabajo y obtener clientes.</h1>
+                        <p className='font-semibold text-white mb-6'>Arquitect.io es la plataforma para encontrar un
+                            profesional cerca de ti, Arquitectos, Interioristas o Proveedores.</p>
                     </div>
                     <div className='bg-white px-6 py-4 rounded'>
                         <h2 className='text-semibold'>Dejanos tu email, te avisaremos del lanzamiento:</h2>
                         <form action="" className='mt-6'>
                             <input className='border-b-2 border-gray-500 mr-4' type="text"/>
-                            <button className='rounded bg-red-600 hover:bg-red-800 font-bold text-white py-2 px-4' type='submit'>Subscribe</button>
+                            <button className='rounded bg-red-600 hover:bg-red-800 font-bold text-white py-2 px-4'
+                                    type='submit'>Subscribe
+                            </button>
                         </form>
                     </div>
                 </div>
             </div>
             <div>
                 <div className="container mx-auto p-10">
-                    <h3 className='text-3xl font-bold text-center'>Vestibulum mauris urna</h3>
-                    <p className='text-center'>
-                        Vestibulum mauris urna, rhoncus eget libero non, eleifend interdum nisl. Morbi quis turpis dui. Nam vitae iaculis turpis. Nam aliquet est eu egestas tincidunt.
+                    <h3 className='text-3xl font-bold text-center'>Nos encontramos trabajando.</h3>
+                    <p className='text-center text-sm md:w-1/2 mx-auto'>
+                        A finales del año 2020 la plataforma estará a tu disposción para:
                     </p>
                 </div>
-                <div className="container mx-auto md:flex">
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-xl p-6 mr-6">
-                        <h4 className='text-center font-semibold mb-6'>Donec in enim</h4>
-                        <p className='text-sm'>Sed quis dignissim ipsum, at vehicula lorem. Sed non eros id odio cursus rutrum.</p>
+                <div className="container mx-auto md:flex md:mb-10">
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mr-6">
+                        <h4 className='text-center font-semibold mb-6'>Mostrar tu trabajo.</h4>
+                        <p className='text-sm'>Con la idea de mostrar tu trabajo y calida al mayor numero de personas,
+                            creamos un sistema donde sera facil publicar tus obras y proyectos.</p>
                     </div>
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-xl p-6">
-                        <h4 className='text-center font-semibold mb-6'>Nulla laoreet</h4>
-                        <p className='text-sm'>Nulla laoreet id nunc nec sagittis. Donec ac suscipit massa. Phasellus ac libero vestibulum, posuere elit eu, condimentum.</p>
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6">
+                        <h4 className='text-center font-semibold mb-6'>Encontrar proveedores.</h4>
+                        <p className='text-sm'>Alguna vez haz tenido la necesidad de encontrar un buen provedor o
+                            comparar con algun otro, los proveedores tambien podran darse de alta en el sistema y
+                            mostrar sus productos y servicios.</p>
                     </div>
-                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-xl p-6 ml-6">
-                        <h4 className='text-center font-semibold mb-6'>Suspendisse</h4>
-                        <p className='text-sm'>Proin at vehicula est. Cras a quam ut nulla bibendum tempor sit amet luctus felis. Donec pharetra urna a convallis iaculis. Ut eu faucibus lorem.</p>
+                    <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 ml-6">
+                        <h4 className='text-center font-semibold mb-6'>Recibir evaluaciones de clientes.</h4>
+                        <p className='text-sm'>Recibir evaluaciones de clientes es importante para encontrar nuevos
+                            clientes, por eso Arquitect.io contara con un sistema de evaluacion para los usuarios que
+                            esten registrados.</p>
                     </div>
                 </div>
             </div>
