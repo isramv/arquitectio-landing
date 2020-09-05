@@ -22,7 +22,15 @@ export default function Home() {
                     </div>
                     <div className='bg-white px-6 py-4 rounded'>
                         <h2 className='text-semibold'>Dejanos tu email, te avisaremos del lanzamiento:</h2>
-                        <form action="" className='mt-6'>
+                        <form
+                            name='subscribe'
+                            method='post'
+                            data-netlify='true'
+                            data-netlify-honeypot="bot-field"
+                            className='mt-6'
+                            action='/success'
+                        netlify>
+                            <input type="hidden" name="form-name" value="subscribe" />
                             <input className='border-b-2 border-gray-500 mr-4' type="text"/>
                             <button className='rounded bg-red-600 hover:bg-red-800 font-bold text-white py-2 px-4'
                                     type='submit'>Subscribe
