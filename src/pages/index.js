@@ -31,7 +31,7 @@ export default function Home() {
                             action='/success'
                         netlify>
                             <input type="hidden" name="form-name" value="subscribe" />
-                            <input className='border-b-2 border-gray-500 mr-4' type="text"/>
+                            <input type='email' name='email' className='border-b-2 border-gray-500 mr-4' type="text" required='true'/>
                             <button className='rounded bg-red-600 hover:bg-red-800 font-bold text-white py-2 px-4'
                                     type='submit'>Subscribe
                             </button>
