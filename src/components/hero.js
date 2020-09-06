@@ -12,10 +12,10 @@ export default function Hero() {
                     <h1 className='text-white font-bold text-3xl leading-tight mb-6'>La plataforma para mostrar tu
                         trabajo y obtener clientes.</h1>
                     <p className='font-semibold text-white mb-6'>Arquitect.io es la plataforma para encontrar un
-                        profesional cerca de ti, Arquitectos, Interioristas o Proveedores.</p>
+                        profesional cerca de ti, Arquitectos, Interioristas y Proveedores.</p>
                 </div>
                 <div className='bg-white px-6 py-4 rounded'>
-                    <h2 className='font-serif font-semibold'>Dejanos tu email, te avisaremos del lanzamiento:</h2>
+                    <h2 className='font-serif font-semibold'>Déjanos tu email, te avisaremos del lanzamiento:</h2>
                     <form
                         name='subscribe'
                         method='post'
