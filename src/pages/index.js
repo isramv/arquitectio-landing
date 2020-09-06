@@ -1,13 +1,17 @@
 import React from "react"
 import logo from '../images/arquitectio_logo.svg'
 import heroImage from '../images/hero-image.png'
-import ilustration from '../images/illustration_girl.png'
+import illustration from '../images/illustration_girl.png'
+import logoWhite from '../images/arquitectio-logo-white.png'
+import compass from '../images/025-compass.svg'
+import trophy from '../images/035-trophy.svg'
+import megaphone from '../images/036-megaphone.svg'
 
 export default function Home() {
     return (
         <>
             <div className='header p-5 bg-white shadow-xl'>
-                <img className='w-64' src={logo} alt="Arquitect.io logo"/>
+                <a href="/"><img className='w-64' src={logo} alt="Arquitect.io logo"/></a>
             </div>
             <div className="md:flex md:items-center">
                 <div className="md:w-1/2">
@@ -48,17 +52,20 @@ export default function Home() {
                 </div>
                 <div className="container mx-auto md:flex md:mb-10 px-4 md:px-0">
                     <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:mr-6">
+                        <img src={megaphone} alt="" className='w-20 mx-auto py-6'/>
                         <h4 className='text-center font-semibold mb-6'>Mostrar tu trabajo.</h4>
                         <p className='text-sm'>Con la idea de mostrar tu trabajo y calida al mayor numero de personas,
                             creamos un sistema donde sera facil publicar tus obras y proyectos.</p>
                     </div>
                     <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl mb-4 p-6">
+                        <img src={compass} alt="" className='w-20 mx-auto py-6'/>
                         <h4 className='text-center font-semibold mb-6'>Encontrar proveedores.</h4>
                         <p className='text-sm'>Alguna vez haz tenido la necesidad de encontrar un buen provedor o
                             comparar con algun otro, los proveedores tambien podran darse de alta en el sistema y
                             mostrar sus productos y servicios.</p>
                     </div>
                     <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:ml-6">
+                        <img src={trophy} alt="" className='w-20 mx-auto py-6'/>
                         <h4 className='text-center font-semibold mb-6'>Recibir evaluaciones de clientes.</h4>
                         <p className='text-sm'>Recibir evaluaciones de clientes es importante para encontrar nuevos
                             clientes, por eso <b>Arquitect.io</b> contara con un sistema de evaluacion para
@@ -76,12 +83,19 @@ export default function Home() {
                             seleccionaremos el mejor contenido para mostrarlo al mayor numero de personas posible.</p>
                     </div>
                     <div className="md:w-3/7">
-                        <img src={ilustration} alt="Girl showing of her work." className=''/>
+                        <img src={illustration} alt="Girl showing of her work." className=''/>
                     </div>
                 </div>
             </div>
-            <footer className='bg-black'>
-
+            <footer className='bg-black p-6 mt-6'>
+                <div className='container mx-auto md:flex'>
+                    <div className="w-1/3">
+                        <img src={logoWhite} alt="arquitectio footer logo"/>
+                    </div>
+                    <div className="w-2/3 md:self-center">
+                        <p className='text-white text-right'>Derechos reservados 2020.</p>
+                    </div>
+                </div>
             </footer>
         </>
     )
