@@ -7,7 +7,7 @@ export default function Hero() {
             <div className="md:w-1/2">
                 <img className="pt-10" src={heroImage}/>
             </div>
-            <div className="bg-black flex-grow p-4 md:w-1/2 md:p-10 md:mx-6 rounded-lg">
+            <div className="bg-black m-2 p-4 flex-grow rounded-lg md:w-1/2 md:p-10 md:mx-6 md:m-0">
                 <div>
                     <h1 className='text-white font-bold text-3xl leading-tight mb-6'>La plataforma para mostrar tu
                         trabajo y obtener clientes.</h1>
