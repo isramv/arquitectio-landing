@@ -14,14 +14,14 @@ export default function ThreeBoxes() {
             </div>
             <div className="container mx-auto md:flex md:mb-10 px-4 md:px-0">
                 <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:mr-6">
-                    <img src={megaphone} alt="" className='w-20 mx-auto py-6'/>
+                    <img src={megaphone} alt="Megaphone icon" className='w-20 mx-auto py-6'/>
                     <h4 className='text-center font-semibold mb-6'>Mostrar tu trabajo.</h4>
                     <p className='text-sm text-center'>Con la idea de mostrar tu trabajo al mayor número de personas,
                         creamos un
                         sistema donde es fácil publicar tus obras, proyectos o renders.</p>
                 </div>
                 <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl mb-4 p-6">
-                    <img src={compass} alt="" className='w-20 mx-auto py-6'/>
+                    <img src={compass} alt="compass icon" className='w-20 mx-auto py-6'/>
                     <h4 className='text-center font-semibold mb-6'>Encontrar proveedores.</h4>
                     <p className='text-sm text-center'>Alguna vez haz tenido la necesidad de encontrar un buen proveedor
                         o comparar
@@ -29,7 +29,7 @@ export default function ThreeBoxes() {
                         productos y servicios.</p>
                 </div>
                 <div className="box-border w-full md:w-2/6 rounded-sm shadow-2xl p-6 mb-4 md:ml-6">
-                    <img src={trophy} alt="" className='w-20 mx-auto py-6'/>
+                    <img src={trophy} alt="trophy icon" className='w-20 mx-auto py-6'/>
                     <h4 className='text-center font-semibold mb-6'>Recibir evaluaciones de clientes.</h4>
                     <p className='text-sm text-center'>Recibir evaluaciones de clientes es importante para construir tu reputación
                         online, por eso <b>Arquitect.io</b> contará con un sistema de evaluación para los usuarios y

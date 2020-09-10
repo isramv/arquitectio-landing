@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <div className="md:flex md:items-center">
             <div className="md:w-1/2">
-                <img className="pt-10" src={heroImage}/>
+                <img alt="Hero Image" className="pt-10" src={heroImage}/>
             </div>
             <div className="bg-black m-2 p-4 flex-grow rounded-lg md:w-1/2 md:p-10 md:mx-6 md:m-0">
                 <div>
