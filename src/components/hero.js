@@ -25,8 +25,9 @@ export default function Hero() {
                         action='/success'
                         netlify>
                         <input type="hidden" name="form-name" value="subscribe" />
-                        <input type='email' name='email' className='bg-gray-200 rounded border-gray-500 mr-4 p-2 ' required='true'/>
-                        <button className='rounded bg-red-600 hover:bg-red-800 font-bold text-white py-2 px-4'
+                        <label className='font-semibold mr-2 block' htmlFor='email'>Email:</label>
+                        <input type='email' name='email' className='bg-gray-200 rounded border-gray-500 border mr-2 p-2 ' required='true'/>
+                        <button className='rounded bg-red-800 hover:bg-red-900 font-bold text-white py-2 px-4'
                                 type='submit'>Avisame
                         </button>
                     </form>
