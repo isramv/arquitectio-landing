@@ -8,6 +8,12 @@ module.exports = {
   /* Your site config here */
   plugins: [
       `gatsby-plugin-sass`,
-      `gatsby-plugin-postcss`
+      `gatsby-plugin-postcss`,
+      {
+          resolve: `gatsby-plugin-purgecss`,
+          options: {
+              tailwind: true
+          }
+      }
   ],
 }
