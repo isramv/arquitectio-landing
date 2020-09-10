@@ -1,5 +1,5 @@
 import React from "react";
-import illustration from "../images/illustration_girl.png";
+import illustration from "../images/illustration_girl.webp";
 
 export default function ImageMessage() {
     return(

@@ -1,5 +1,5 @@
 import React from "react";
-import logoWhite from "../images/arquitectio-logo-white.png";
+import logoWhite from "../images/arquitectio-logo-white.webp";
 
 export default function Footer() {
     return(
